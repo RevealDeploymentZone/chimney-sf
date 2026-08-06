@@ -1,0 +1,67 @@
+User-agent: *
+Allow: /
+
+# Block unnecessary assets from crawling
+Disallow: /assets/images/
+Disallow: /*.json$
+
+# Sitemaps
+Sitemap: https://sanfrancisco.alchimneycleaning.com/sitemap.xml
+
+# Crawl-delay for polite bots
+Crawl-delay: 10
+
+# Allow major search engine bots explicitly
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 5
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 10
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 10
+
+User-agent: facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# AI crawlers - allow for GEO/AEO optimization
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
