@@ -176,22 +176,12 @@ h4 { font-size: 1.05rem; }
   gap: 12px;
   text-decoration: none;
 }
-.logo-placeholder {
-  width: 44px;
-  height: 44px;
-  background: var(--color-primary);
-  border-radius: var(--radius-sm);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: .7rem;
-  font-weight: 700;
-  flex-shrink: 0;
+.logo-img {
+  height: 54px;
+  width: auto;
+  display: block;
+  object-fit: contain;
 }
-.logo-text { display: flex; flex-direction: column; line-height: 1.2; }
-.logo-name { font-size: 1rem; font-weight: 800; color: var(--color-dark); }
-.logo-location { font-size: .75rem; font-weight: 500; color: var(--color-primary); }
 
 .main-nav { margin-left: auto; }
 .main-nav ul {
@@ -363,15 +353,11 @@ h4 { font-size: 1.05rem; }
   transition: var(--transition);
 }
 .why-card:hover { box-shadow: var(--shadow-md); transform: translateY(-2px); }
-.why-icon-placeholder {
-  font-size: .78rem;
-  color: #999;
-  background: #e8e0d5;
-  padding: 10px 14px;
-  border-radius: var(--radius-sm);
-  display: inline-block;
+.why-icon {
+  font-size: 2rem;
+  display: block;
   margin-bottom: 16px;
-  font-weight: 600;
+  line-height: 1;
 }
 .why-card h3 { margin-bottom: 10px; font-size: 1.1rem; }
 .why-card p { font-size: .93rem; color: var(--color-text); }
