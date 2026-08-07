@@ -242,6 +242,7 @@ h4 { font-size: 1.05rem; }
   min-height: 600px;
   display: flex;
   align-items: center;
+  background: #1c0f0f;
 }
 .hero-image-placeholder {
   position: absolute;
@@ -297,7 +298,8 @@ h4 { font-size: 1.05rem; }
 
 /* --- About --- */
 .about-section { background: var(--color-bg); }
-.about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+.about-grid { display: grid; grid-template-columns: 1fr; gap: 64px; align-items: center; }
+.about-image { display: none; }
 .about-content h2 { margin-bottom: 20px; }
 .about-content p { margin-bottom: 16px; color: var(--color-text); font-size: 1rem; }
 .about-content .btn { margin-top: 8px; }
